@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'angular#1.5/3' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of C:\Users\NoelD\Google Drive\projects\php\angular\package.json
+5 verbose readDependencies loading dependencies from C:\Users\NoelD\Google Drive\projects\php\angular\package.json
+6 silly cache add args [ 'angular#1.5/3', null ]
+7 verbose cache add spec angular#1.5/3
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'angular#1.5/3',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: 'angular#1.5/3',
+8 silly cache add   spec: 'github:angular/{project}#1.5/3',
+8 silly cache add   type: 'hosted',
+8 silly cache add   hosted:
+8 silly cache add    { type: 'github',
+8 silly cache add      ssh: 'git@github.com:angular/{project}.git#1.5/3',
+8 silly cache add      sshUrl: 'git+ssh://git@github.com/angular/{project}.git#1.5/3',
+8 silly cache add      httpsUrl: 'git+https://github.com/angular/{project}.git#1.5/3',
+8 silly cache add      gitUrl: 'git://github.com/angular/{project}.git#1.5/3',
+8 silly cache add      shortcut: 'github:angular/{project}#1.5/3',
+8 silly cache add      directUrl: 'https://raw.githubusercontent.com/angular/{project}/1.5%2F3/package.json' } }
+9 verbose addRemoteGit caching angular#1.5/3
+10 verbose addRemoteGit angular/{project}#1.5/3 is a repository hosted by github
+11 silly tryGitProto attempting to clone git://github.com/angular/{project}.git#1.5/3
+12 silly tryClone cloning angular/{project}#1.5/3 via git://github.com/angular/{project}.git#1.5/3
+13 verbose tryClone git-github-com-angular-project-git-3b4a4a70 not in flight; caching
+14 verbose correctMkdir C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+15 verbose makeDirectory C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+16 verbose makeCacheDir UID & GID are irrelevant on win32
+17 verbose git clone --template=C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/angular/{project}.git C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\git-github-com-angular-project-git-3b4a4a70: undefined
+17 verbose git clone --template=C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/angular/{project}.git C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\git-github-com-angular-project-git-3b4a4a70: undefined
+18 silly tryHTTPS attempting to clone git+https://github.com/angular/{project}.git#1.5/3
+19 silly tryClone cloning angular/{project}#1.5/3 via git+https://github.com/angular/{project}.git#1.5/3
+20 verbose tryClone git-https-github-com-angular-project-git-6116c885 not in flight; caching
+21 verbose correctMkdir C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+22 verbose git clone --template=C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git+https://github.com/angular/{project}.git C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-angular-project-git-6116c885: undefined
+22 verbose git clone --template=C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git+https://github.com/angular/{project}.git C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-angular-project-git-6116c885: undefined
+23 silly trySSH attempting to clone git@github.com:angular/{project}.git#1.5/3
+24 silly tryClone cloning angular/{project}#1.5/3 via git@github.com:angular/{project}.git#1.5/3
+25 verbose tryClone git-github-com-angular-project-git-b8f34445 not in flight; caching
+26 verbose correctMkdir C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+27 error git clone --template=C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:angular/{project}.git C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\git-github-com-angular-project-git-b8f34445: undefined
+27 error git clone --template=C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:angular/{project}.git C:\Users\NoelD\AppData\Roaming\npm-cache\_git-remotes\git-github-com-angular-project-git-b8f34445: undefined
+28 verbose stack Error: not found: git
+28 verbose stack     at F (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:63:19)
+28 verbose stack     at E (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:72:29)
+28 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:81:16
+28 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+28 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+28 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+29 verbose cwd C:\Users\NoelD\Google Drive\projects\php\angular
+30 error Windows_NT 6.1.7601
+31 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular#1.5/3"
+32 error node v4.4.3
+33 error npm  v2.15.1
+34 error code ENOGIT
+35 error not found: git
+36 error Failed using git.
+36 error This is most likely not a problem with npm itself.
+36 error Please check if you have git installed and in your PATH.
+37 verbose exit [ 1, true ]
