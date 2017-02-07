@@ -1,15 +1,15 @@
-<html >
+<html ng-app = "myApp" ng-controller = "myController">
 
       <head>
         <title>Angular JS Controller</title>
-        <script src = "../js/angular.min.js"></script>
+        
         <script src = "script.js"></script>
     </head>
 
     <body>
         <h2>AngularJS Sample Application</h2>
 
-        <div ng-app = "myApp" ng-controller = "myController">
+        <div >
             
             Enter first name: <input type = "text" ng-model = "employee.firstName"><br><br>
             Enter last name: <input type = "text" ng-model = "employee.lastName"><br>
@@ -17,12 +17,7 @@
 
             You are entering: {{employee.fullName()}}
         </div>
-
-    <div ng-app = "">
-            
-          
-        </div>
-
+       <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     </body>
 </html>
 

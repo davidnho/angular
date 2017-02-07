@@ -2,9 +2,9 @@
    
    <head>
       <title>Angular JS Modules</title>
-      <script src = "../js/angular.min.js"></script>
-      <script src = "../js/mainApp.js"></script>
-      <script src = "../js/studentController.js"></script>
+     <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+      <script src = "/angularjs/src/module/mainApp.js"></script>
+      <script src = "/angularjs/src/module/studentController.js"></script>
       
       <style>
          table, th , td {

@@ -7,9 +7,9 @@
    <body>
       <h1>Sample Application</h1>
       
-      <div ng-app = "">
+      <div ng-app>
          <p>Enter your Name: <input type = "text" ng-model = "name"></p>
-         <p>Hello <span ng-bind = "name"></span>!</p>
+         <p>Hello {{ name }}</p>
       </div>
       
       <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
